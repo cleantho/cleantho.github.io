@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Cleantho">
+    <meta property="og:description"
+        content="Venha conhecer melhor o profissional, especializado em desenvolvimento Web, com experiência em backend e frontend.">
+    <meta property="og:image" content="https://cleantho.github.io/images/ogimage.jpg">
+    <meta property="og:url" content="https://cleantho.github.io/">
+    <meta property="og:type" content="website">
+    <title>Cleantho</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="config gradient">
+            <button id="theme-toggle" class="link"><span title="Ir para tema escuro">&#127769;</span></button>
+            <button id="lang"><a href="indexEn.html" class="link">English</a></button>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://github.com/cleantho" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#home">Cleantho</a>
+            </div>
+            <!-- ícone hamburger -->
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+            <ul class="header-links">
+                <li><a href="#home" class="link active">Início</a></li>
+                <li><a href="#about-me" class="link">Sobre</a></li>
+                <li><a href="#academic" class="link">Cursos</a></li>
+                <li><a href="#projects" class="link">Projetos</a></li>
+                <li><a href="#skills" class="link">Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Home -->
+        <section id="home" class="gradient">
+            <div class="container content">
+                <h1>Cleantho Bezerra</h1>
+                <p class="subtitle">Analista • Desenvolvedor • Educador</p>
+                <p>
+                    Arquiteturas limpas, código preciso e uma abordagem moderna ao desenvolvimento fullstack. Projetos
+                    escaláveis, integrações complexas e soluções que conectam front e back.
+                    Interfaces fluidas, APIs robustas e a busca constante por performance. Uma visão completa do ciclo
+                    de desenvolvimento. Descubra o que nasce quando lógica e criatividade se encontram.
+                </p>
+            </div>
+        </section><!-- Home -->
+
+        <!-- About -->
+        <section id="about-me">
+            <div class="about">
+                <img id="image-about" src="images/c-light.jpg" loading="lazy">
+            </div>
+            <div class="about">
+                <div class="margin">
+                    <h2>SOBRE MIM</h2>
+                    <p>Adoro aprender e venho aprimorando meus conhecimentos para atuar como Desenvolvedor Full
+                        Stack, buscando sempre criar soluções criativas, eficientes e funcionais. </p>
+                    <p>Tenho experiência como Desenvolvedor Web, Desenvolvedor Desktop e professor de TI.
+                        Sou formado em Ciências da Computação e estou em constante busca por novos desafios que
+                        impulsionem minha evolução profissional. </p>
+                    <p id="signature">Cleantho Bezerra</p>
+                </div>
+            </div>
+        </section><!-- About -->
+
+        <!-- academic -->
+        <section id="academic">
+            <h2>Cursos</h2>
+            <p class="subtitle">Aprendizado contínuo ajudando a fortalecer minha atuação como desenvolvedor</p>
+            <p>Minha formação é construída sobre uma base sólida em Ciências da Computação, complementada por cursos que
+                aprofundam minha prática em desenvolvimento full stack, arquitetura de software e tecnologias modernas.
+                Cada curso representa um passo na minha evolução profissional, ampliando minha capacidade de criar
+                soluções eficientes, escaláveis e bem estruturadas.</p>
+            <div class="cards">
+                <div class="card centers">
+                    <img src="images/courses/diploma.jpg" alt="Diploma">
+                    <p class="titration">Bacharelado em Ciências da Computação</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/webModerno.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Curso Web Moderno Completo com JavaScript + Projetos</p>
+                    <p class="period">97,5 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/javaSpring.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Bootcamp Claro - Java com Spring Boot</p>
+                    <p class="period">75 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/javaCompleto.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Java COMPLETO Programação Orientada a Objetos + Projetos</p>
+                    <p class="period">54,5 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/microsservicosJava.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Microsserviços Java com Spring Boot e Spring Cloud</p>
+                    <p class="period">8,5 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/aprendendo.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">NestJS para REST API com TypeORM, Autenticação JWT e Testes</p>
+                    <p class="period">24 horas (em andamento)</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/aprendendo.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Curso Angular 2 (v19)</p>
+                    <p class="period">20,5 horas (em andamento)</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/arqHexagonal.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Domine a Arquitetura Limpa e Hexagonal</p>
+                    <p class="period">7 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/docker.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Docker: Ferramenta essencial para Desenvolvedores</p>
+                    <p class="period">5,5 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/typescript.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Entendendo TypeScript</p>
+                    <p class="period">11,5 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/rxjs.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">JavaScript Funcional e Reativo - PENSE como um Dev JS</p>
+                    <p class="period">17 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/regex.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Fundamentos de Expressões Regulares (Regex)</p>
+                    <p class="period">6 horas</p>
+                </div>
+                <div class="card centers">
+                    <img src="images/courses/uml.jpg" alt="Certificado" loading="lazy">
+                    <p class="titration">Modelagem de Dados UML (Análise&Projeto Orientado a Objetos)</p>
+                    <p class="period">13 horas</p>
+                </div>
+            </div>
+        </section><!-- academic -->
+
+        <!-- projects -->
+        <section id="projects">
+            <h2>Projetos</h2>
+            <p class="subtitle">Onde teoria encontra prática</p>
+            <p>Os projetos apresentados aqui refletem minha jornada de aprendizado e minha busca constante por domínio
+                técnico. São aplicações que exploram diferentes arquiteturas, padrões de projeto, integrações entre
+                serviços e construção de interfaces modernas. Cada projeto é uma oportunidade de experimentar, validar
+                ideias e aprimorar minha forma de pensar e desenvolver software.</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/projetoPattern.jpg" alt="dio-desafio-patterns">
+                    <a href="https://github.com/cleantho/dio-desafio-patterns" class="link-inverted" target="_blank">
+                        <h3>dio-desafio-patterns</h3>
+                    </a>
+                    <div>
+                        <p>O desafio envolveu a criação de um backend com utilização de design patterns.
+                        <p>Neste projeto foi utilizado os padrões Singleton, Observer e Factory Method.</p>
+                        <p>No backend foi utilizado a linguagem Java com String Boot (spring-boot-starter-web,
+                            spring-boot-starter-data-jpa e spring-restdocs-mockmvc).
+                            Juntamente com banco de dados H2.</p>
+                        <p>No frontend foi utilizado o Vue + Vite.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/projetoKnowlegde.jpg" alt="knowledge">
+                    <a href="https://github.com/cleantho/knowledge" class="link-inverted" target="_blank">
+                        <h3>knowledge</h3>
+                    </a>
+                    <div>
+                        <p>Neste projeto foi desenvolvido um sistema de divulgação de artigos para uma comunidade
+                            fechada.</p>
+                        <p>No backend foi utilizado a linguagem Javascript com servidor Express.
+                            Juntamente com dois bancos de dados: Postgres e Mongo.</p>
+                        <p>No frontend foi utilizado o Vue.</p>
+                    </div>
+                </div>
+                <div class="card">                    
+                    <a href="https://github.com/cleantho/Booker" class="link-inverted" target="_blank">
+                        <h3>Booker</h3>
+                    </a>
+                    <div>
+                        <p>Este projeto simula a API Java de uma reserva de salas de reunião, utilizando o framework
+                            Spring Boot. Foi disponibilizado na nuvem da plataforma Railway.</p>
+                        <p>Devido incompatibilidade de versão do Java 23 no Railway, a versão no modo produção foi
+                            ajustada para Java 17.</p>
+                        <p>* Posteriormente a API foi desativada no Railway, para evitar custos.</p>
+                    </div>
+                </div>
+            </div>
+            <p>* Os projetos divulgados no <a href="https://github.com/cleantho" class="link-inverted"
+                    target="_blank">Github</a> são projetos criados no processo de aprendizado.</p>
+        </section><!-- projects -->
+
+        <!-- skills -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <p class="subtitle">Tecnologias que utilizo com mais frequência atualmente</p>
+            <p>Minha stack atual combina ferramentas e frameworks que me permitem atuar de ponta a ponta no
+                desenvolvimento de aplicações. Do backend robusto ao frontend fluido, passando por bancos de dados,
+                arquitetura limpa e práticas modernas de desenvolvimento, utilizo tecnologias que garantem
+                qualidade, performance e escalabilidade nas soluções que construo.</p>
+            <div class="skills-icons">
+                <img src="images/skills/java.svg" alt="Java" title="Java">
+                <img src="images/skills/javascript.svg" alt="JavaScript" title="JavaScript">
+                <img src="images/skills/typescript.svg" alt="TypeScript" title="TypeScript">
+                <img src="images/skills/markdown.svg" alt="Markdown" title="Markdown">
+                <img src="images/skills/html.svg" alt="HTML5" title="HTML5">
+                <img src="images/skills/css.svg" alt="CSS3" title="CSS3">
+                <img src="images/skills/sass.svg" alt="Sass" title="Sass">
+                <img src="images/skills/tailwind.svg" alt="Tailwindcss" title="Tailwindcss">
+                <img src="images/skills/spring.svg" alt="Spring" title="Spring">
+                <img src="images/skills/react.svg" alt="React" title="React">
+                <img src="images/skills/nextjs.svg" alt="NextJS" title="NextJS">
+                <img src="images/skills/vue.svg" alt="Vue" title="Vue">
+                <img src="images/skills/docker.svg" alt="Docker" title="Docker">
+                <img src="images/skills/prisma.svg" alt="Prisma" title="Prisma">
+                <img src="images/skills/mysql.svg" alt="MySql" title="MySql">
+                <img src="images/skills/mariadb.svg" alt="Mariadb" title="Mariadb">
+                <img src="images/skills/postgresql.svg" alt="Postgresql" title="Postgresql">
+                <img src="images/skills/mongo.svg" alt="Mongo" title="Mongo">
+                <img src="images/skills/railway.svg" alt="Railway" title="Railway">
+                <img src="images/skills/heroku.svg" alt="Heroku" title="Heroku">
+                <img src="images/skills/firebase.svg" alt="Firebase" title="Firebase">
+                <img src="images/skills/nodejs.svg" alt="NodeJS" title="NodeJS">
+                <img src="images/skills/git.svg" alt="Git" title="Git">
+                <img src="images/skills/github.svg" alt="Github" title="Github">
+                <img src="images/skills/vscode.svg" alt="VSCode" title="VSCode">
+                <img src="images/skills/postman.svg" alt="Postman" title="Postman">
+                <img src="images/skills/eclipse.svg" alt="Eclipse" title="Eclipse">
+            </div>
+        </section><!-- skills -->
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="#home" class="link-inverted especial-link">Início</a></li>
+                <li><a href="#about-me" class="link-inverted especial-link">Sobre</a></li>
+                <li><a href="#academic" class="link-inverted especial-link">Cursos</a></li>
+                <li><a href="#projects" class="link-inverted especial-link">Projetos</a></li>
+                <li><a href="#skills" class="link-inverted especial-link">Habilidades</a></li>
+            </ul>
+        </nav>
+        <div id="copyright">
+            <p>Copyright &copy; 2025 - Cleantho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

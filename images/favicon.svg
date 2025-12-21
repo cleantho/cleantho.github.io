@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title>Escudo roxo com letra C estilo CSS3</title>
+  <desc>Escudo dividido em roxo, com uma letra C geométrica inspirada nos logotipos HTML/CSS/JS.</desc>
+
+  <!-- Definições -->
+  <defs>
+    <linearGradient id="splitPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5A2D91"/>
+      <stop offset="50%" stop-color="#5A2D91"/>
+      <stop offset="50%" stop-color="#7B49C6"/>
+      <stop offset="100%" stop-color="#7B49C6"/>
+    </linearGradient>
+
+    <linearGradient id="innerLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9668daff"/>
+      <stop offset="100%" stop-color="#9668daff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Escudo -->
+  <path
+    d="M71 32h370l-34 390-151 58-151-58z"
+    fill="url(#splitPurple)"/>
+
+  <!-- Interior -->
+  <path
+    d="M256 462l122-47 31-348H256z"
+    fill="url(#innerLight)"/>
+
+  <!-- Letra C estilo CSS3 (geométrica, com cortes retos) -->
+  <path
+    d="
+      M 350 150
+      L 220 150
+      C 170 150 140 200 140 256
+      C 140 312 170 362 220 362
+      L 350 362
+
+      L 350 310
+      L 230 310
+      C 200 310 185 280 185 256
+      C 185 232 200 200 230 200
+      L 350 200
+      Z
+    "
+    fill="white"/>
+</svg>
