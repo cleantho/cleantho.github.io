@@ -13,7 +13,7 @@
     --bg-third: #1573b63e;
     --bg-fourth: #22818e2e;
     --text-primary: #000000;
-    --text-second: #cb9a1c;
+    --text-second: #c38c00;
     --border: #24303f64;
     --shadow: 0 6px 24px #3e393940;
     --font-primary: Arial, sans-serif;
@@ -89,8 +89,7 @@ header {
 
 #theme-toggle,
 #lang {
-    background: none;
-    /* color: var(--text-primary); */
+    background: none;    
     align-self: center;
     border: 0;
     padding: 5px 5px;
