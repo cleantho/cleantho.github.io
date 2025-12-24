@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional specialized in Web development with experience in backend and frontend.">
     <meta property="og:title" content="Cleantho">
     <meta property="og:description"
         content="Discover more about this professional, specialized in Web development, with experience in both backend and frontend.">
@@ -12,9 +13,9 @@
     <meta property="og:type" content="website">
     <title>Cleantho</title>
     <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload stylesheet" href="style.css">    
     <!-- Ícones Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preload stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -25,7 +26,7 @@
         </div>
         <nav class="navbar">
             <div class="logo">
-                <a href="https://github.com/cleantho" target="_blank">
+                <a href="https://github.com/cleantho" title="Github" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="#home">Cleantho</a>
@@ -51,11 +52,9 @@
                 <p class="subtitle">Analyst • Developer • Educator</p>
                 <p>
                     Clean architectures, precise code, and a modern approach to fullstack development. Scalable
-                    projects,
-                    complex integrations, and solutions that connect front and back.
+                    projects, complex integrations, and solutions that connect front and back.
                     Fluid interfaces, robust APIs, and a constant pursuit of performance. A complete view of the
-                    development
-                    cycle. Discover what emerges when logic and creativity meet.
+                    development cycle. Discover what emerges when logic and creativity meet.
                 </p>
             </div>
         </section><!-- Home -->
@@ -63,14 +62,13 @@
         <!-- About -->
         <section id="about-me">
             <div class="about">
-                <img id="image-about" src="images/c-light.jpg" loading="lazy">
+                <img id="image-about" fetchpriority="high" src="images/c-light.jpg" alt="Cleantho's photo">
             </div>
             <div class="about">
                 <div class="margin">
                     <h2>ABOUT ME</h2>
                     <p>I love learning and I'm constantly improving my knowledge to work as a Full Stack Developer,
-                        always
-                        creating creative, efficient and functional solutions. </p>
+                        always creating creative, efficient and functional solutions. </p>
                     <p>I have experience as a Web Developer, Desktop Developer and IT teacher.
                         I am a Computer Science graduate and I am constantly seeking new challenges that
                         drive my professional evolution. </p>
