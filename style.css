@@ -13,7 +13,7 @@
     --bg-third: #1573b63e;
     --bg-fourth: #22818e2e;
     --text-primary: #000000;
-    --text-second: #c38c00;
+    --text-second: #8d6500;
     --border: #24303f64;
     --shadow: 0 6px 24px #3e393940;
     --font-primary: Arial, sans-serif;
@@ -397,6 +397,14 @@ p#signature {
     padding: 20px 0px;
     min-height: 120px;
     border-top: var(--bg-second) solid 1px;
+}
+
+/* Prevent image long-press menu on touch devices and disable image dragging/selection */
+img {
+    -webkit-touch-callout: none; /* iOS Safari: disable callout menu */
+    -webkit-user-drag: none;     /* prevent image dragging */
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #copyright p {

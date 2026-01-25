@@ -1,6 +1,7 @@
-// Elimina o comportamento padrão de arrastar
+// Evita comportamento padrão em imagens (arrastar e menu de contexto/long-press)
 document.querySelectorAll("img").forEach(img => {
     img.addEventListener("dragstart", e => e.preventDefault());
+    img.addEventListener("contextmenu", e => e.preventDefault());
 });
 
 // Fixa a cor do link ativo
