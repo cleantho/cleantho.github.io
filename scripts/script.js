@@ -4,6 +4,18 @@ document.querySelectorAll("img").forEach(img => {
     img.addEventListener("contextmenu", e => e.preventDefault());
 });
 
+// Botão de alternância de idioma (usa a API exposta por scripts/i18n.js)
+const langToggle = document.getElementById('lang-toggle');
+if (window.i18n) {
+    if (langToggle) {
+        langToggle.addEventListener('click', function () {
+            var cur = window.i18n.getLang();
+            var next = (cur === 'pt') ? 'en' : 'pt';
+            window.i18n.setLang(next);
+        });
+    }
+}
+
 // Fixa a cor do link ativo
 const links = document.querySelectorAll('.link');
 
@@ -29,7 +41,7 @@ function toggleMenu() {
 toggle.addEventListener('click', toggleMenu);
 
 document.querySelectorAll('.header-links a').forEach(link => {
-  link.addEventListener('click', toggleMenu);
+    link.addEventListener('click', toggleMenu);
 });
 
 // Adiciona o listener para o evento de resize
@@ -46,9 +58,9 @@ window.addEventListener("resize", remove);
 
 
 // Alternar entre modo claro, escuro e constraste
-const moonIcon = '<span title="Ir para tema escuro" class="link">&#9789;</span>';
-const sunIcon = '<span title="Ir para tema claro" class="link">&#9728;</span>';
-const contrastIcon = '<span title="Ir para tema de alto contraste" class="link">&#9680;</span>';
+const moonIcon = '&#9789;';
+const sunIcon = '&#9728;';
+const contrastIcon = '&#9680;';
 const themeToggle = document.getElementById('theme-toggle');
 const imageAbout = document.getElementById('image-about');
 

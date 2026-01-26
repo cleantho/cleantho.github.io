@@ -88,12 +88,13 @@ header {
 }
 
 #theme-toggle,
-#lang {
+#lang-toggle {
     background: none;    
     align-self: center;
     border: 0;
     padding: 5px 5px;
     cursor: pointer;
+    width: 100px;
 }
 
 .navbar {
@@ -314,6 +315,7 @@ p#signature {
 
 .card img {
     width: 150px;
+    aspect-ratio: 150 / 112;
 }
 
 .card img:active {
@@ -326,6 +328,7 @@ p#signature {
 .titration {
     padding-top: 5px;
     font-size: 1rem;
+    font-weight: bolder;
     color: var(--text-second);
 }
 
